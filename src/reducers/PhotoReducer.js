@@ -23,7 +23,7 @@ const PhotoReducer = (state = initialState, action) => {
       return {
         ...state,
         isFetching: false,
-        items: [...action.photos.reverse(), ...action.photos.reverse(), ...action.photos.reverse(), ...action.photos.reverse(), ...action.photos.reverse(), ...action.photos.reverse(),...action.photos.reverse(), ...action.photos.reverse()],
+        items: action.photos.reverse(),
         lastUpdated: action.receivedAt,
         error: false,
       }
