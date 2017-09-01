@@ -1,0 +1,20 @@
+.App {
+  background: url(../img/background.png) left 5px no-repeat;
+}
+
+.siteHeader {
+  text-align: center;
+}
+  .siteHeader h1 {
+    margin: 0;
+  }
+  .siteHeader img {
+    margin-top: 75px;
+  }
+  
+  .siteHeader h2 {
+    color: #F9D7D9;
+    font-family: 'daunpenhAlt';
+    font-size: 1.5em;
+    font-weight: normal;
+  }
