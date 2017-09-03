@@ -4,7 +4,7 @@ export const REQUEST_PHOTOS = 'REQUEST_PHOTOS'
 export const RECEIVE_PHOTOS = 'RECEIVE_PHOTOS'
 export const RECEIVE_PHOTOS_ERROR = 'RECEIVE_PHOTOS_ERROR'
 
-const REQUEST_PHOTO_SERVER_URL = ''
+const REQUEST_PHOTO_SERVER_URL = 'http://photobooth.server/api/photos?absolute=true'
 
 function requestPhotos() {
   return {
